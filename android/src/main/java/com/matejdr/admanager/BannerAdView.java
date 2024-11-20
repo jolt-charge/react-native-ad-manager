@@ -283,7 +283,14 @@ class BannerAdView extends ReactViewGroup implements AppEventListener, Lifecycle
             Bundle bundle = new Bundle();
             bundle.putString("correlator", correlator);
 
-            adRequestBuilder.addNetworkExtrasBundle(AdMobAdapter.class, bundle);
+
+            /*
+              We are removing this line because this method is no longer supported. Hence causing the app
+              to crash. For more details, see: https://github.com/NZME/react-native-ad-manager/issues/138
+
+            */
+
+            //adRequestBuilder.addNetworkExtrasBundle(AdMobAdapter.class, bundle);
 
             // Targeting
             if (hasTargeting) {

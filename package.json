@@ -1,5 +1,5 @@
 {
-  "name": "react-native-ad-manager",
+  "name": "@jolt-charge/react-native-ad-manager",
   "title": "React Native Ad Manager",
   "version": "2.0.10",
   "description": "A react-native component for Google Ad Manager banners, interstitials and native ads.",
@@ -37,15 +37,15 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/NZME/react-native-ad-manager",
+  "repository": "https://github.com/jolt-charge/react-native-ad-manager",
   "author": "Matej Drobnic <matej.dr@gmail.com> (https://github.com/matejdr)",
   "license": "MIT",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/NZME/react-native-ad-manager/issues"
+    "url": "https://github.com/jolt-charge/react-native-ad-manager/issues"
   },
-  "homepage": "https://github.com/NZME/react-native-ad-manager#readme",
+  "homepage": "https://github.com/jolt-charge/react-native-ad-manager#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
